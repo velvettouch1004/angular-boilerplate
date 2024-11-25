@@ -1,0 +1,8 @@
+<!-- Alternative Angular Component Template (without ngModel) -->
+<input
+  type="text"
+  placeholder="Search item"
+  [value]="searchTerm"
+  (input)="onSearchChange($event)"
+  class="p-2 border border-blue-300 focus:outline-none focus:border-blue-500"
+/>
